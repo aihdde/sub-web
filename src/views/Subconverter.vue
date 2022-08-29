@@ -256,7 +256,7 @@ export default {
           Surge2: "surge&ver=2",
         },
         customBackend: {
-          “NAS本地后端": "http://10.10.10.9:25500/sub?",
+          "NAS本地后端": "http://10.10.10.9:25500/sub?",
           "本地局域网版后端": "http://127.0.0.1:25500/sub?",
         },
         backendOptions: [
