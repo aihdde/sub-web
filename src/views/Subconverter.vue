@@ -34,11 +34,13 @@
                 <el-form-item label="后端地址:">
                   <el-select
                     allow-create
+                    filterable
                     style="width: 100%"
                     v-model="form.customBackend"
                     @change="selectChanged"
                     placeholder="留空则默认使用本站后端。也可以动动小手，（建议）自行搭建后端服务。例：http://127.0.0.1:25500/sub?"
                   >
+                    <el-option v-for="(v, k) in options.customBackend" :key="k" :label="k" :value="v"></el-option>
                     <el-button slot="append" @click="gotoGayhub" icon="el-icon-link">前往项目仓库</el-button>
                   </el-select>
                 </el-form-item>
