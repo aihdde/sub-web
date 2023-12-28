@@ -302,10 +302,12 @@ export default {
         customBackend: {
           "NAS本地后端": "http://10.10.10.9:25500/sub?",
           "本地局域网版后端": "http://127.0.0.1:25500/sub?",
+          "Https://api.aires.cf": "https://api.aires.cf/sub?",
         },
         backendOptions: [
           {value: "http://10.10.10.9:25500/sub?"},
           {value: "http://127.0.0.1:25500/sub?"},
+          {value: "https://api.aires.cf/sub?"},
         ],
         remoteConfig: [
           {
