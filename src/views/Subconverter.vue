@@ -326,6 +326,16 @@ export default {
             ]
           },
           {
+            label: "Aethersailor's Custom_OpenClash_Rules",
+            options: [
+              {
+                label: "Custom_OpenClash_Rules",
+                value:
+                  "https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/main/cfg/Custom_Clash.ini"
+              },
+            ]
+          },
+          {
             label: "ACL4SSR",
             options: [
               {
