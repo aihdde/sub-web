@@ -337,6 +337,16 @@ export default {
               },
             ]
           },
+           {
+            label: "Aihdde's Custom_OpenClash_Rules",
+            options: [
+              {
+                label: "Custom_OpenClash_Rules",
+                value:
+                  "https://raw.githubusercontent.com/aihdde/Custom_OpenClash_Rules/refs/heads/main/cfg/Custom_Clash.ini"
+              },
+            ]
+          },
           {
             label: "ACL4SSR",
             options: [
